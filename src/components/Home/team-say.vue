@@ -1,11 +1,11 @@
 <template>
-    <div class=" m-28 justify-center items-center  ">
+    <div class=" flex items-center justify-center  ">
         <div>
             <!-- <div class="font-bold text-4xl">What happy teams have to say.</div> -->
         </div>
         <div class="flex flex-wrap  justify-left items-left ">
             <div v-for="opinion in opinions" :key="opinion.author">
-                <div class=" bg-white w-96 h-64 m-8 flex flex-col justify-between rounded-lg p-8 drop-shadow-xl">
+                <div class=" bg-white w-96 max-h-max min-h-[24rem] m-8 flex flex-col justify-between rounded-lg p-8 drop-shadow-xl">
                     <cardTeams :opinion="opinion" />
                 </div>
             </div>
@@ -18,9 +18,9 @@
                 </div>-->
             </div>
         </div>
-        <div class="flex flex-col justify-center items-center  ">
-            <buttonBlue text="Sign me up" class="bg-sky-500 text-white border-0" />
-        </div>
+    </div>
+    <div class="">
+        <buttonBlue text="Sign me up" class="bg-sky-500 text-white border-0" />
     </div>
 </template>
 <script>
@@ -35,7 +35,7 @@ export default {
         return {
             opinions: [
 
-                { title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas esse blanditiis earum.', author: 'FLORE ELIA', img: 'https://imgv3.fotor.com/images/gallery/Realistic-Male-Profile-Picture.jpg' },
+                { title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas esse blanditiis earum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas esse blanditiis earum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas esse blanditiis earum.', author: 'FLORE ELIA', img: 'https://imgv3.fotor.com/images/gallery/Realistic-Male-Profile-Picture.jpg' },
                 { title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas esse blanditiis earum.', author: 'FLORE ELIA', img: 'https://images.pexels.com/photos/5378700/pexels-photo-5378700.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' },
                 { title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas esse blanditiis earum.', author: 'FLORE ELIA', img: 'https://images.pexels.com/photos/3646160/pexels-photo-3646160.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' },
                 { title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas esse blanditiis earum.', author: 'FLOREN ELIAM', img: 'https://imgv3.fotor.com/images/gallery/Realistic-Male-Profile-Picture.jpg' },
