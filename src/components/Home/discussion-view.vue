@@ -1,5 +1,5 @@
 <template>
-    <div class="m-4 md:m-28 md:gap-y-0 text-center flex flex-col  items-center gap-8">
+    <div class="m-4 md:m-28 md:gap-y-0 text-center flex flex-col  items-center gap-8 ">
         <div class="h-full flex flex-col md:flex-row   items-center md:gap-x-8 md:gap-y-0">
             <div class="md:w-1/4 text-center md:text-left mb-8 md:mb-0  md:flex-col">
                 <div class="font-bold text-3xl md:text-5xl ">

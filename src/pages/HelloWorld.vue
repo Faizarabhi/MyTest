@@ -1,10 +1,12 @@
 <template>
+  <div class="" >
   <mainPage/>
  <productView/> 
  <discussionView/>
  <communicationView/>
  <teamSay/>
  <templateView/>
+ </div>
 </template>
 
 <script>

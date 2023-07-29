@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full flex flex-col lg:flex-row justify-between p-8 drop-shadow-lg">
+    <div class="w-full flex flex-col lg:flex-row justify-between p-8 drop-shadow-lg bg-[#f5e5d1]">
       <div class="font-bold text-2xl items-center">
         <router-link to="/">Slite</router-link>
       </div>

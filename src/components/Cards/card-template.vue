@@ -1,17 +1,19 @@
 <template>
-  <div class="flex flex-col  justify-between  bg-white">
-    <div>
-      <p class="bg-white font-medium text-xl"> {{ name }}</p>
-    </div>
-    <div>
-      <img src="../../assets/image/blob.svg" alt="name Image" class="w-12 h-12 rounded-full object-cover " />
+  <p class="bg-white font-medium text-xl"> {{ name }}</p>
+  
+    <div class="bg-white">
+      <img :src="img" alt="Image" class=" bg-white  h-full  w-full" />
     </div>
 
-  </div>
+ 
 </template>
+
 
 <script>
 export default {
-  props: ['name', 'img']
+  props: ['name', 'img'],
+  created() {
+    console.log(this.img);
+  },
 };
 </script>

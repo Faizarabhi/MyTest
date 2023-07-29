@@ -1,6 +1,8 @@
 <template>
+  <div class="bg-[#f5e5d1]">
 <Navbar/>
 <Home/>
+</div>
 </template>
 
 <script>
