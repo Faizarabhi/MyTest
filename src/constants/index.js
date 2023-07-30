@@ -1,5 +1,5 @@
 import { navItems } from './navbarData'
+import {footerItems} from './footerData'
 
 
-
-export default { navItems }
+export default { navItems, footerItems }

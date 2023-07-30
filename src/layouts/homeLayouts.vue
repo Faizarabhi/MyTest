@@ -1,10 +1,8 @@
 <template>
     <div>
         <navBar />
-
         <slot>
         </slot>
-
         <fooTer />
     </div>
 </template>

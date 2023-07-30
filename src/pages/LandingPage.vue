@@ -7,7 +7,7 @@
   <priceView />
   <teamSay />
   <templateView />
-  </HomeLayouts>
+  </HomeLayouts> 
 </template>
 
 <script>

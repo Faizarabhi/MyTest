@@ -6,51 +6,35 @@
             <div class="max-w-max  md:w-1/2 lg:w-1/3 xl:w-[1/8] p-4">
                 <ul>
                     <li>what it's for</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
+                    <li v-for="item in items" :key="item.item">{{ item.item }}</li>
+
+                </ul>
+            </div>
+            <div class="max-w-max md:w-1/2 lg:w-1/3 xl:w-[1/8] p-4">
+                <ul>
+                    <li v-for="item in items" :key="item.item">{{ item.item }}</li>
+
                 </ul>
             </div>
             <div class="max-w-max md:w-1/2 lg:w-1/3 xl:w-[1/8] p-4">
                 <ul>
                     <li>what it's for</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
+                    <li v-for="item in items" :key="item.item">{{ item.item }}</li>
+
                 </ul>
             </div>
             <div class="max-w-max md:w-1/2 lg:w-1/3 xl:w-[1/8] p-4">
                 <ul>
                     <li>what it's for</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
+                    <li v-for="item in items" :key="item.item">{{ item.item }}</li>
+
                 </ul>
             </div>
             <div class="max-w-max md:w-1/2 lg:w-1/3 xl:w-[1/8] p-4">
                 <ul>
                     <li>what it's for</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
-                </ul>
-            </div>
-            <div class="max-w-max md:w-1/2 lg:w-1/3 xl:w-[1/8] p-4">
-                <ul>
-                    <li>what it's for</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
-                    <li>knowledge base</li>
+                    <li v-for="item in items" :key="item.item">{{ item.item }}</li>
+
                 </ul>
             </div>
             <div class="max-w-max md:w-1/2 lg:w-1/3 xl:w-3/12  p-4">
@@ -78,12 +62,14 @@
 <script>
 
 import buttonBlue from '../components/Button/button-blue.vue'
+import footerItems from '../constants/footerData'
 export default {
     components: {
         buttonBlue,
     },
     data() {
         return {
+            items: footerItems
         };
     }
 };
