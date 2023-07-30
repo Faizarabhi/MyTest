@@ -25,6 +25,7 @@
   </template>
 <script>
 import buttonBlue from './Button/button-blue.vue'
+
 export default {
   components: {
     buttonBlue,

@@ -1,14 +1,11 @@
 <template>
-  <div class="" >
-  <mainPage/>
- <productView/> 
- <discussionView/>
- <communicationView/>
- <priceView/>
- <teamSay/>
- <templateView/>
- <fooTer/>
- </div>
+  <mainPage />
+  <productView />
+  <discussionView />
+  <communicationView />
+  <priceView />
+  <teamSay />
+  <templateView />
 </template>
 
 <script>
@@ -17,9 +14,8 @@ import productView from '../components/Home/product-section.vue';
 import discussionView from '../components/Home/discussion-section.vue';
 import teamSay from '../components/Home/team-section.vue';
 import communicationView from '../components/Home/communication-section.vue';
-import  templateView from '../components/Home/template-section.vue';
-import  priceView from '../components/Home/price-section.vue';
-import fooTer from '../components/foo-ter.vue';
+import templateView from '../components/Home/template-section.vue';
+import priceView from '../components/Home/price-section.vue';
 export default {
   components: {
     mainPage,
@@ -29,7 +25,6 @@ export default {
     communicationView,
     templateView,
     priceView,
-    fooTer
   }
 }
 </script>

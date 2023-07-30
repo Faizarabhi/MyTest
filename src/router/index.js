@@ -4,21 +4,21 @@ import LandingPage from '../pages/LandingPage.vue'
 import HomeLayouts from '../layouts/homeLayouts.vue'
 const routes = [
     {
-        // path: '/',
-        // name: 'LandingPage',
-        // component: LandingPage,
-        // // meta: {Layout : LandingPage}
         path: '/',
         component: HomeLayouts,
         children: [
-          
-          { path: '', component: HelloWorld },
-        ],
+            {
+                path: "",
+                component: LandingPage,
+                name: 'LandingPage',
+            },
+        ]
+
     }
 ];
 
 const router = createRouter({
-    history: createWebHistory(process.env.BASE_URL),
+    history: createWebHistory('/'),
     routes
 });
 

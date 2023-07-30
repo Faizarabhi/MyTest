@@ -68,9 +68,9 @@
                 </ul>
             </div>
         </div>
-        <div class="flex flex-col justify-between gap-4 ">
+        <div class="sm:flex justify-between gap-4 ">
             <div class="">Lorem ipsum dolor sit.</div>
-            <div class="">Lorem ipsum dolor sit.</div>
+            <div class="">&copy; Lorem ipsum dolor sit.</div>
         </div>
     </div>
 </template>
