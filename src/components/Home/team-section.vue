@@ -1,26 +1,29 @@
 <template>
-    <div class=" flex items-center justify-center  ">
+    <div class="flex flex-col items-center justify-center gap-8 my-10 mx-28">
         <div>
-            <!-- <div class="font-bold text-4xl">What happy teams have to say.</div> -->
+            <div class="font-bold text-4xl">What happy teams have to say.</div>
         </div>
-        <div class="flex flex-wrap  justify-left items-left ">
-            <div v-for="opinion in opinions" :key="opinion.author">
-                <div class=" bg-white w-96 max-h-max min-h-[24rem] m-8 flex flex-col justify-between rounded-lg p-8 drop-shadow-xl">
-                    <cardTeams :opinion="opinion" />
+        <div class=" flex  items-center justify-center  ">
+            <div class="flex flex-wrap justify-center sm:justify-start">
+                <div v-for="opinion in opinions" :key="opinion.author">
+                    <div
+                        class=" bg-white w-96 max-h-max min-h-[24rem] m-8 flex flex-col justify-between rounded-lg p-8 drop-shadow-xl">
+                        <cardTeams :opinion="opinion" />
+                    </div>
                 </div>
-            </div>
-            <div class="flex flex-col justify-center items-center  ">
-                <!-- <div>
+                <div class=" w-96 max-h-max min-h-[24rem] m-8 flex flex-col justify-center items-center rounded-lg p-8 drop-shadow-xl ">
+                    <div>
                     Read more
                 </div>
                 <div>
                     review -> 
-                </div>-->
+                </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="">
-        <buttonBlue text="Sign me up" class="bg-sky-500 text-white border-0" />
+        <div class="">
+            <buttonBlue text="Sign me up" class="bg-sky-500 text-white border-0" />
+        </div>
     </div>
 </template>
 <script>

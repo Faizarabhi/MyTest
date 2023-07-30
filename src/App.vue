@@ -7,7 +7,7 @@
 
 <script>
 import Navbar from './components/nav-bar.vue'
-import Home from './pages/HelloWorld.vue'
+import Home from './pages/LandingPage.vue'
 export default {
   components:{
     Navbar,

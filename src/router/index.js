@@ -1,13 +1,13 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import HelloWorld from '../pages/HelloWorld.vue'
+import LandingPage from '../pages/LandingPage.vue'
 import HomeLayouts from '../layouts/homeLayouts.vue'
 const routes = [
     {
         // path: '/',
-        // name: 'HelloWorld',
-        // component: HelloWorld,
-        // // meta: {Layout : HomeLayout}
+        // name: 'LandingPage',
+        // component: LandingPage,
+        // // meta: {Layout : LandingPage}
         path: '/',
         component: HomeLayouts,
         children: [
