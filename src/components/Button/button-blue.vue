@@ -1,6 +1,6 @@
 <template>
     <div
-      class="ml-8 max-w-max border border-black font-medium rounded-full p-3 px-8"
+      class="ml-8 max-w-max min-w-[12rem] text-center border border-black font-medium rounded-full p-3 px-8"
       :class="[color, { 'bg-sky-500 border border-sky-500  text-white ': isActiveOnHover }]"
       @mouseenter="handleMouseEnter"
       @mouseleave="handleMouseLeave"

@@ -7,6 +7,7 @@
  <priceView/>
  <teamSay/>
  <templateView/>
+ <fooTer/>
  </div>
 </template>
 
@@ -18,6 +19,7 @@ import teamSay from '../components/Home/team-section.vue';
 import communicationView from '../components/Home/communication-section.vue';
 import  templateView from '../components/Home/template-section.vue';
 import  priceView from '../components/Home/price-section.vue';
+import fooTer from '../components/foo-ter.vue';
 export default {
   components: {
     mainPage,
@@ -26,7 +28,8 @@ export default {
     teamSay,
     communicationView,
     templateView,
-    priceView
+    priceView,
+    fooTer
   }
 }
 </script>

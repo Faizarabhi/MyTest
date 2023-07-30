@@ -1,7 +1,7 @@
 <template>
    <li
       class="text-gray-600 text-xl font-bold p-2 rounded-md"
-      :class="[color, { 'bg-white text-black border-0': isActiveOnHover }]"
+      :class="[color, { 'bg-white text-black border-0 drop-shadow-lg': isActiveOnHover }]"
       @mouseenter="handleMouseEnter"
       @mouseleave="handleMouseLeave"
     >

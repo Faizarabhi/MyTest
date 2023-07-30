@@ -1,5 +1,5 @@
 <template>
-    <div class="relative flex flex-col justify-center items-center gap-4 ">
+    <div class="relative flex flex-col justify-center items-center gap-4 mt-[16rem]">
         <h1 class="font-bold text-4xl">Get Started with templates</h1>
         <p>Best practices for your team.</p>
         <div class="flex absolute gap-2 bottom-8 z-10 right-28">
