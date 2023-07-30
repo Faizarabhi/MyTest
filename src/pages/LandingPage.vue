@@ -1,4 +1,5 @@
 <template>
+  <HomeLayouts>
   <mainPage />
   <productView />
   <discussionView />
@@ -6,6 +7,7 @@
   <priceView />
   <teamSay />
   <templateView />
+  </HomeLayouts>
 </template>
 
 <script>
@@ -16,6 +18,8 @@ import teamSay from '../components/Home/team-section.vue';
 import communicationView from '../components/Home/communication-section.vue';
 import templateView from '../components/Home/template-section.vue';
 import priceView from '../components/Home/price-section.vue';
+import homeLayouts from '../layouts/homeLayouts.vue';
+import HomeLayouts from '../layouts/homeLayouts.vue';
 export default {
   components: {
     mainPage,
@@ -25,6 +29,7 @@ export default {
     communicationView,
     templateView,
     priceView,
-  }
+    HomeLayouts
+}
 }
 </script>

@@ -4,15 +4,15 @@ import LandingPage from '../pages/LandingPage.vue'
 import HomeLayouts from '../layouts/homeLayouts.vue'
 const routes = [
     {
-        path: '/',
-        component: HomeLayouts,
-        children: [
-            {
-                path: "",
+        // path: '/',
+        // component: HomeLayouts,
+        // children: [
+        //     {
+                path: "/",
                 component: LandingPage,
                 name: 'LandingPage',
-            },
-        ]
+        //     },
+        // ]
 
     }
 ];
