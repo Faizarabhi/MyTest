@@ -1,7 +1,7 @@
 
 <template>
     <div class="bg-white p-28  ">
-        <div class=""><img src="../assets/vue.svg"/></div>
+        <div class=""><img src="../assets/vue.svg" /></div>
         <div class="  md:border-b pb-16 md:border-b-black flex flex-col md:flex-row md:flex-wrap gap-8 justify-center">
             <div class="max-w-max  md:w-1/2 lg:w-1/3 xl:w-[1/8] p-4">
                 <ul>
@@ -63,8 +63,9 @@
                         </div>
 
                     </div>
-                    <li>100% base knowledge base knowledge base knowledge base knowledge base knowledge base knowledge base knowledge base </li>
-                    
+                    <li>100% base knowledge base knowledge base knowledge base knowledge base knowledge base knowledge base
+                        knowledge base </li>
+
                 </ul>
             </div>
         </div>
